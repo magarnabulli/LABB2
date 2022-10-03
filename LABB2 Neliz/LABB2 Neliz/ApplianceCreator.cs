@@ -27,9 +27,9 @@ namespace LABB2_Neliz
         {
             untilItsRight = true;
             ApplianceManager newappliance = new ApplianceManager();
-            
+
             Console.WriteLine(":::::::::::NEW APPLIANCE::::::::");
-          
+
             Console.Write("\tType : ");
             string inputType = Console.ReadLine();
             Console.Write("\tBrand : ");
@@ -88,13 +88,18 @@ namespace LABB2_Neliz
         // listappliances listar upp sparade apparater med full info, onumrerat
         public void ListAppliances()
         {
+
             Console.WriteLine(":::::::Available appliances:::::::");
-            for (int i = 0; i < appliances.Count; i++)
+            if (appliances.Count == 0) Console.WriteLine("\n\tThere are no appliances available.\n");
+            else
             {
-                if (appliances[i].IsFunctioning == true)
-                    Console.WriteLine($"\n>\t{appliances[i].Type}\n\t{appliances[i].Brand}\n\tFunctioning: Yes\n");
-                else if (appliances[i].IsFunctioning == false)
-                    Console.WriteLine($"\n>\t{appliances[i].Type}\n\t{appliances[i].Brand}\n\tFunctioning: No\n");
+                for (int i = 0; i < appliances.Count; i++)
+                {
+                    if (appliances[i].IsFunctioning == true)
+                        Console.WriteLine($"\n>\t{appliances[i].Type}\n\t{appliances[i].Brand}\n\tFunctioning: Yes\n");
+                    else if (appliances[i].IsFunctioning == false)
+                        Console.WriteLine($"\n>\t{appliances[i].Type}\n\t{appliances[i].Brand}\n\tFunctioning: No\n");
+                }
             }
         }
         // choose metoden listar upp sparade apparater, numrerat med endast typ och används för val vid radering och användning

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozkal\\source\\repos\\LABB2 Neliz\\LABB2 Neliz\\LABB2 Neliz.csproj",
+      "projectUniqueName": "C:\\Users\\ozkal\\Documents\\Skola\\Programmering med C#\\LABB\\LABB2\\LABB2 Neliz\\LABB2 Neliz\\LABB2 Neliz.csproj",
       "projectName": "LABB2 Neliz",
-      "projectPath": "C:\\Users\\ozkal\\source\\repos\\LABB2 Neliz\\LABB2 Neliz\\LABB2 Neliz.csproj",
+      "projectPath": "C:\\Users\\ozkal\\Documents\\Skola\\Programmering med C#\\LABB\\LABB2\\LABB2 Neliz\\LABB2 Neliz\\LABB2 Neliz.csproj",
       "packagesPath": "C:\\Users\\ozkal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozkal\\source\\repos\\LABB2 Neliz\\LABB2 Neliz\\obj\\",
+      "outputPath": "C:\\Users\\ozkal\\Documents\\Skola\\Programmering med C#\\LABB\\LABB2\\LABB2 Neliz\\LABB2 Neliz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ozkal\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,3 +13,18 @@ C:\Users\ozkal\source\repos\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\refint\LABB
 C:\Users\ozkal\source\repos\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.pdb
 C:\Users\ozkal\source\repos\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.genruntimeconfig.cache
 C:\Users\ozkal\source\repos\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\ref\LABB2 Neliz.dll
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\bin\Debug\net6.0\LABB2 Neliz.exe
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\bin\Debug\net6.0\LABB2 Neliz.deps.json
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\bin\Debug\net6.0\LABB2 Neliz.runtimeconfig.json
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\bin\Debug\net6.0\LABB2 Neliz.dll
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\bin\Debug\net6.0\LABB2 Neliz.pdb
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.csproj.AssemblyReference.cache
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.AssemblyInfoInputs.cache
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.AssemblyInfo.cs
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.csproj.CoreCompileInputs.cache
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.dll
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\refint\LABB2 Neliz.dll
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.pdb
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\LABB2 Neliz.genruntimeconfig.cache
+C:\Users\ozkal\Documents\Skola\Programmering med C#\LABB\LABB2\LABB2 Neliz\LABB2 Neliz\obj\Debug\net6.0\ref\LABB2 Neliz.dll
