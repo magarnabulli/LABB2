@@ -65,17 +65,27 @@ namespace LABB2_Neliz
         }
         public override void Use()
         {
-            Choose();
+           
             try
             {
-                int val = Convert.ToInt32((Console.ReadLine()));
-                if (appliances[val - 1].IsFunctioning == true)
+                if (appliances.Count == 0)
                 {
-                    Console.WriteLine($"\t|The {appliances[val - 1].Type} is being used.|\n");
+                    Console.WriteLine("\n\tThere are no appliances to use right now. Add some first!\n");
                 }
-                else if (appliances[val - 1].IsFunctioning == false)
+                else
                 {
-                    Console.WriteLine($"\t|The {appliances[val - 1].Type} is broken...|\n ");
+                    Console.WriteLine("\tChoose the appliance you would like to use: \n");
+                    Choose();
+                    int val = Convert.ToInt32((Console.ReadLine()));
+                    if (appliances[val - 1].IsFunctioning == true)
+                    {
+                        Console.WriteLine($"\t|The {appliances[val - 1].Type} is being used.|\n");
+                    }
+                    else if (appliances[val - 1].IsFunctioning == false)
+                    {
+                        Console.WriteLine($"\t|The {appliances[val - 1].Type} is broken...|\n ");
+                    }
+
                 }
             }
             catch
@@ -88,7 +98,6 @@ namespace LABB2_Neliz
         // listappliances listar upp sparade apparater med full info, onumrerat
         public void ListAppliances()
         {
-
             Console.WriteLine(":::::::Available appliances:::::::");
             if (appliances.Count == 0) Console.WriteLine("\n\tThere are no appliances available.\n");
             else
@@ -106,12 +115,15 @@ namespace LABB2_Neliz
         //av apparater
         public void Choose()
         {
+
             int j = 1;
             for (int i = 0; i < appliances.Count; i++)
             {
                 Console.WriteLine("\t" + j + ". " + appliances[i].Type);
                 j++;
             }
+
+
         }
         //anropas i början av programmet så de alltid finns något i listan
         public void FyllLista()
@@ -131,23 +143,33 @@ namespace LABB2_Neliz
             appliance3.Brand = "Samsung";
             appliance3.IsFunctioning = true;
             appliances.Add(appliance3);
+
+            
         }
         public void RemoveAppliance()
         {
-            Console.WriteLine("\tWich appliance would you like to remove?");
-            Choose();
-            try
+            if (appliances.Count == 0)
             {
-                int val = Int32.Parse(Console.ReadLine());
-                appliances.RemoveAt(val - 1);
-                Console.WriteLine("\tThe chosen appliance has been removed.");
+                Console.WriteLine("\n\tThere are no appliances to remove. \n");
             }
-            catch
+            else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\t**Choose from the list, and only numbers!**\n");
-                Console.ForegroundColor = ConsoleColor.White;
-                RemoveAppliance();
+                Console.WriteLine("\tWich appliance would you like to remove?");
+                Choose();
+                try
+                {
+                    int val = Int32.Parse(Console.ReadLine());
+                    appliances.RemoveAt(val - 1);
+                    Console.WriteLine("\tThe chosen appliance has been removed.");
+                }
+                catch
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\t**Choose from the list, and only numbers!**\n");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    RemoveAppliance();
+                }
+
             }
         }
     }

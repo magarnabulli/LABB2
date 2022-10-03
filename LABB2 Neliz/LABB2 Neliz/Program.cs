@@ -20,7 +20,7 @@ while (kör)
     switch (val)
     {
         case 1:
-            Console.WriteLine("\tChoose the appliance you would like to use: \n");
+           
             anv.Use();
             break;
         case 2:
