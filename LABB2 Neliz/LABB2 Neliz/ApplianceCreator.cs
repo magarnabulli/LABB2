@@ -27,9 +27,7 @@ namespace LABB2_Neliz
         {
             untilItsRight = true;
             ApplianceManager newappliance = new ApplianceManager();
-
             Console.WriteLine(":::::::::::NEW APPLIANCE::::::::");
-
             Console.Write("\tType : ");
             string inputType = Console.ReadLine();
             Console.Write("\tBrand : ");
@@ -65,7 +63,7 @@ namespace LABB2_Neliz
         }
         public override void Use()
         {
-           
+
             try
             {
                 if (appliances.Count == 0)
@@ -144,7 +142,7 @@ namespace LABB2_Neliz
             appliance3.IsFunctioning = true;
             appliances.Add(appliance3);
 
-            
+
         }
         public void RemoveAppliance()
         {
