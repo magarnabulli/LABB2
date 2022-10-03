@@ -8,7 +8,7 @@ felhantering.
 i relation till uppgiften - skulle jag ha haft mindre i klassen 'appliancemanager' o mer i main? 
         tack på förhand!*/
 
-//innan programmet drar igång skapar jag ett objekt av min klass Appliancemanager för att kunna nå de inkapslade metoderna som är i klassen
+//innan programmet drar igång skapar jag ett objekt av min klass Appliancemanager för att kunna nå metoderna som är i klassen
 //anropar även metoden som ska lägga nåt i listan så det inte är tomt, samt en int variabel för menyval och en bool för while loopen.
 ApplianceManager anv = new ApplianceManager();
 anv.FyllLista();
